@@ -6,4 +6,4 @@ def slugify(name: str) -> str:
 
     Words are separated by runs of whitespace. Other characters are kept as they are.
     """
-    return name.lower().replace(" ", "-")
+    return "-".join(name.lower().split())
