@@ -1,0 +1,31 @@
+README.md
+  s_d4163664df39bd::t_7e70c5a3a40a1a 8,18-20
+billing.py
+  s_d4163664df39bd::t_9c367890e65d52 1-8
+calendar_days.py
+  s_d4163664df39bd::t_823578ec98b9e0 1-15
+slugs.py
+  s_d4163664df39bd::t_bc9ba600f14648 1-6
+test_billing.py
+  s_d4163664df39bd::t_8f7f767f52a251 1-12
+test_calendar_days.py
+  s_d4163664df39bd::t_fdd1816085b6ff 1-17
+test_slugs.py
+  s_d4163664df39bd::t_373212e697dd2e 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7c45c869c19a7fa5da9f47f9f0d9287dc99b5258",
+  "prompts": {},
+  "sessions": {
+    "s_d4163664df39bd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7c2217ca-1a33-42c4-8b68-c969f8eebaf7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Georgian Dinca <geo@magnify.ro>"
+    }
+  }
+}
