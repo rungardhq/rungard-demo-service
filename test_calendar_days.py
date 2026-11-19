@@ -8,6 +8,11 @@ class CalendarDaysTest(unittest.TestCase):
         self.assertEqual(days_in_month(2024, 2), 29)
         self.assertEqual(days_in_month(2023, 2), 28)
 
+    def test_century_years(self) -> None:
+        self.assertEqual(days_in_month(1900, 2), 28)
+        self.assertEqual(days_in_month(2100, 2), 28)
+        self.assertEqual(days_in_month(2000, 2), 29)
+
     def test_long_and_short_months(self) -> None:
         self.assertEqual(days_in_month(2023, 1), 31)
         self.assertEqual(days_in_month(2023, 4), 30)
