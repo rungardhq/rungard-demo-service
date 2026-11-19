@@ -5,7 +5,7 @@ def page_count(total: int, size: int) -> int:
     """How many pages `total` items fill, `size` to a page."""
     if size < 1:
         raise ValueError("size must be at least 1")
-    return total // size
+    return -(-total // size)
 
 
 def page(items: list, number: int, size: int) -> list:
