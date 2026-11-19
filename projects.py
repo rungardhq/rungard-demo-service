@@ -6,4 +6,7 @@ PROJECTS = {"alpha": {"id": "alpha", "name": "Alpha"}, "beta": {"id": "beta", "n
 def get_project(path: str) -> tuple[int, dict | None]:
     """The status code and the JSON body of GET `path`."""
     project_id = path.removeprefix("/projects/")
-    return 200, PROJECTS.get(project_id)
+    project = PROJECTS.get(project_id)
+    if project is None:
+        return 404, None
+    return 200, project

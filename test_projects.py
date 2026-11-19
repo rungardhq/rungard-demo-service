@@ -7,6 +7,9 @@ class ProjectsTest(unittest.TestCase):
     def test_a_known_project(self) -> None:
         self.assertEqual(get_project("/projects/alpha"), (200, {"id": "alpha", "name": "Alpha"}))
 
+    def test_an_unknown_project(self) -> None:
+        self.assertEqual(get_project("/projects/nope"), (404, None))
+
 
 if __name__ == "__main__":
     unittest.main()
