@@ -1,0 +1,21 @@
+billing.py
+  s_d4163664df39bd::t_19091b184b01f1 5-8
+slugs.py
+  s_d4163664df39bd::t_cf1d827ef7d4b5 5-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cd184fea068904a1754a9b93a879228c3179f0ed",
+  "prompts": {},
+  "sessions": {
+    "s_d4163664df39bd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7c2217ca-1a33-42c4-8b68-c969f8eebaf7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Georgian Dinca <geo@magnify.ro>"
+    }
+  }
+}
