@@ -8,4 +8,5 @@ def split_amount(cents: int, parts: int) -> list[int]:
     """
     if parts < 1:
         raise ValueError("parts must be at least 1")
-    return [cents // parts] * parts
+    base, extra = divmod(cents, parts)
+    return [base + 1 if i < extra else base for i in range(parts)]
