@@ -5,7 +5,7 @@ owner: Product
 author: Georgian Dinca
 created: 2026-11-14
 classification: public
-last-reviewed: 2026-11-19
+last-reviewed: 2026-11-22
 ai-trust: working
 ---
 
@@ -18,6 +18,9 @@ A small, synthetic Python service for demonstrating [Rungard](https://app.rungar
 - `slugs.py` turns a project name into its URL slug.
 - `billing.py` splits an invoice between teams.
 - `calendar_days.py` counts the days in a month.
+- `durations.py` formats a run's length.
+- `emails.py` normalises an owner's e-mail address.
+- `retries.py` gives the waits between retries of a failed call.
 
 Run the gates the way the agent does:
 
