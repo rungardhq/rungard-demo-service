@@ -8,4 +8,5 @@ def normalize_email(address: str) -> str:
     given, since a mail server may treat it as case-sensitive. An address with
     no "@" is only stripped.
     """
-    return address.strip().lower()
+    local, at, domain = address.strip().rpartition("@")
+    return local + at + domain.lower() if at else domain
